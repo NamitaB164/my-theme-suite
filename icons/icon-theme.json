@@ -1,0 +1,381 @@
+{
+  "iconDefinitions": {
+    // Default icons
+    "_file": {
+      "iconPath": "./svg/files/file.svg"
+    },
+    "_folder": {
+      "iconPath": "./svg/folders/folder.svg"
+    },
+    "_folder_open": {
+      "iconPath": "./svg/folders/folder-open.svg"
+    },
+    "_root_folder": {
+      "iconPath": "./svg/folders/folder-root.svg"
+    },
+    "_root_folder_open": {
+      "iconPath": "./svg/folders/folder-root-open.svg"
+    },
+
+    // Programming Languages
+    "javascript": {
+      "iconPath": "./svg/languages/javascript.svg"
+    },
+    "typescript": {
+      "iconPath": "./svg/languages/typescript.svg"
+    },
+    "python": {
+      "iconPath": "./svg/languages/python.svg"
+    },
+    "java": {
+      "iconPath": "./svg/languages/java.svg"
+    },
+    "rust": {
+      "iconPath": "./svg/languages/rust.svg"
+    },
+    "go": {
+      "iconPath": "./svg/languages/go.svg"
+    },
+    "php": {
+      "iconPath": "./svg/languages/php.svg"
+    },
+    "cpp": {
+      "iconPath": "./svg/languages/cpp.svg"
+    },
+    "csharp": {
+      "iconPath": "./svg/languages/csharp.svg"
+    },
+    "ruby": {
+      "iconPath": "./svg/languages/ruby.svg"
+    },
+    "kotlin": { 
+      "iconPath": "./svg/languages/kotlin.svg" 
+    },
+    "swift": { "iconPath": "./svg/languages/swift.svg" 
+    },
+    "shell": { 
+      "iconPath": "./svg/languages/bash.svg" 
+    },
+    "sql": { 
+      "iconPath": "./svg/languages/sql.svg"
+    },
+    "r": { 
+    "iconPath": "./svg/languages/r.svg" 
+    },
+    "perl": { 
+      "iconPath": "./svg/languages/perl.svg" 
+    },
+    "flutter": {
+      "iconPath": "./svg/languages/flutter.svg"
+    },
+
+
+    // Web Technologies
+    "html": {
+      "iconPath": "./svg/languages/html.svg"
+    },
+    "css": {
+      "iconPath": "./svg/languages/css.svg"
+    },
+    "scss": {
+      "iconPath": "./svg/languages/scss.svg"
+    },
+    "vue": {
+      "iconPath": "./svg/languages/vue.svg"
+    },
+    "react": {
+      "iconPath": "./svg/languages/react.svg"
+    },
+    "angular": {
+      "iconPath": "./svg/languages/angular.svg"
+    },
+
+    // Data & Config Files
+    "json": {
+      "iconPath": "./svg/files/json.svg"
+    },
+    "xml": {
+      "iconPath": "./svg/files/xml.svg"
+    },
+    "yaml": {
+      "iconPath": "./svg/files/yaml.svg"
+    },
+    "toml": {
+      "iconPath": "./svg/files/toml.svg"
+    },
+    "ini": {
+      "iconPath": "./svg/files/config.svg"
+    },
+
+    // Documentation
+    "markdown": {
+      "iconPath": "./svg/files/markdown.svg"
+    },
+    "readme": {
+      "iconPath": "./svg/files/readme.svg"
+    },
+    "license": {
+      "iconPath": "./svg/files/license.svg"
+    },
+    "changelog": {
+      "iconPath": "./svg/files/changelog.svg"
+    },
+
+    // Build & Package Files
+    "package": {
+      "iconPath": "./svg/files/package.svg"
+    },
+    "npm": {
+      "iconPath": "./svg/files/npm.svg"
+    },
+    "yarn": {
+      "iconPath": "./svg/files/yarn.svg"
+    },
+    "docker": {
+      "iconPath": "./svg/files/docker.svg"
+    },
+    "makefile": {
+      "iconPath": "./svg/files/makefile.svg"
+    },
+
+    // Version Control
+    "git": {
+      "iconPath": "./svg/files/git.svg"
+    },
+    "gitignore": {
+      "iconPath": "./svg/files/gitignore.svg"
+    },
+
+    // Special Folders
+    "folder_src": {
+      "iconPath": "./svg/folders/folder-src.svg"
+    },
+    "folder_dist": {
+      "iconPath": "./svg/folders/folder-dist.svg"
+    },
+    "folder_node_modules": {
+      "iconPath": "./svg/folders/folder-node.svg"
+    },
+    "folder_assets": {
+      "iconPath": "./svg/folders/folder-assets.svg"
+    },
+    "folder_images": {
+      "iconPath": "./svg/folders/folder-images.svg"
+    },
+    "folder_docs": {
+      "iconPath": "./svg/folders/folder-docs.svg"
+    },
+    "folder_test": {
+      "iconPath": "./svg/folders/folder-test.svg"
+    },
+    "folder_git": {
+      "iconPath": "./svg/folders/folder-git.svg"
+    },
+    "folder_vscode": {
+      "iconPath": "./svg/folders/folder-vscode.svg"
+    }
+  },
+
+  // Default assignments
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "rootFolder": "_root_folder",
+  "rootFolderExpanded": "_root_folder_open",
+
+  // File extension mappings
+  "fileExtensions": {
+    // JavaScript/TypeScript
+    "js": "javascript",
+    "jsx": "react",
+    "ts": "typescript",
+    "tsx": "react",
+    "mjs": "javascript",
+    "cjs": "javascript",
+
+    // Python
+    "py": "python",
+    "pyw": "python",
+    "pyi": "python",
+    "pyc": "python",
+
+    // Java
+    "java": "java",
+    "class": "java",
+    "jar": "java",
+
+    // C/C++
+    "c": "cpp",
+    "cpp": "cpp",
+    "cxx": "cpp",
+    "cc": "cpp",
+    "h": "cpp",
+    "hpp": "cpp",
+    "hxx": "cpp",
+
+    // C#
+    "cs": "csharp",
+    "csx": "csharp",
+
+    // Web
+    "html": "html",
+    "htm": "html",
+    "xhtml": "html",
+    "css": "css",
+    "scss": "scss",
+    "sass": "scss",
+    "less": "css",
+    "vue": "vue",
+
+    // Other Languages
+    "php": "php",
+    "rb": "ruby",
+    "rs": "rust",
+    "go": "go",
+    "kt": "kotlin",
+    "swift": "swift",
+    "sh": "shell",
+    "bash": "shell",
+    "sql": "sql",
+    "r": "r",
+    "pl": "perl",
+    "dart": "flutter",
+
+
+
+    // Data formats
+    "json": "json",
+    "json5": "json",
+    "jsonc": "json",
+    "xml": "xml",
+    "yaml": "yaml",
+    "yml": "yaml",
+    "toml": "toml",
+    "ini": "ini",
+    "cfg": "ini",
+    "conf": "ini",
+
+    // Documentation
+    "md": "markdown",
+    "markdown": "markdown",
+    "mdown": "markdown",
+    "mkd": "markdown",
+    "mdx": "markdown",
+
+    // Git
+    "gitignore": "gitignore",
+    "gitattributes": "git",
+    "gitmodules": "git"
+  },
+
+  // Specific file name mappings
+  "fileNames": {
+    // Package files
+    "package.json": "package",
+    "package-lock.json": "npm",
+    "yarn.lock": "yarn",
+    "composer.json": "package",
+    "cargo.toml": "package",
+    "go.mod": "package",
+    "pom.xml": "package",
+
+    // Documentation
+    "readme.md": "readme",
+    "readme.txt": "readme",
+    "readme": "readme",
+    "license": "license",
+    "license.md": "license",
+    "license.txt": "license",
+    "changelog.md": "changelog",
+    "changelog": "changelog",
+    "changes.md": "changelog",
+
+    // Build files
+    "dockerfile": "docker",
+    "docker-compose.yml": "docker",
+    "docker-compose.yaml": "docker",
+    "makefile": "makefile",
+    "cmake": "makefile",
+    "build.gradle": "makefile",
+
+    // Git files
+    ".gitignore": "gitignore",
+    ".gitattributes": "git",
+    ".gitmodules": "git"
+  },
+
+  // Folder name mappings
+  "folderNames": {
+    // Source folders
+    "src": "folder_src",
+    "source": "folder_src",
+    "lib": "folder_src",
+    "app": "folder_src",
+
+    // Build/Output folders
+    "dist": "folder_dist",
+    "build": "folder_dist",
+    "out": "folder_dist",
+    "bin": "folder_dist",
+    "target": "folder_dist",
+
+    // Dependencies
+    "node_modules": "folder_node_modules",
+    "vendor": "folder_node_modules",
+
+    // Assets
+    "assets": "folder_assets",
+    "static": "folder_assets",
+    "public": "folder_assets",
+    "resources": "folder_assets",
+
+    // Images
+    "images": "folder_images",
+    "img": "folder_images",
+    "pics": "folder_images",
+    "screenshots": "folder_images",
+
+    // Documentation
+    "docs": "folder_docs",
+    "documentation": "folder_docs",
+    "doc": "folder_docs",
+
+    // Testing
+    "test": "folder_test",
+    "tests": "folder_test",
+    "spec": "folder_test",
+    "__tests__": "folder_test",
+
+    // Config/Meta folders
+    ".git": "folder_git",
+    ".vscode": "folder_vscode",
+    ".github": "folder_git"
+  },
+
+  // Expanded folder mappings (when folder is open)
+  "folderNamesExpanded": {
+    "src": "folder_src",
+    "dist": "folder_dist",
+    "node_modules": "folder_node_modules",
+    "assets": "folder_assets",
+    "images": "folder_images",
+    "docs": "folder_docs",
+    "test": "folder_test",
+    ".git": "folder_git",
+    ".vscode": "folder_vscode"
+  },
+
+  // Light theme overrides (optional)
+  "light": {
+    // You can specify different icons for light themes if needed
+    // "file": "_file_light",
+    // "folder": "_folder_light"
+  },
+
+  // High contrast overrides (optional)
+  "highContrast": {
+    // You can specify different icons for high contrast themes if needed
+    // "file": "_file_hc",
+    // "folder": "_folder_hc"
+  }
+}

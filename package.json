@@ -1,0 +1,89 @@
+{
+  "name": "workspace-theme-suite",
+  "displayName": "Workspace Theme Suite",
+  "description": "A complete theme family with dark, light, and high-contrast variants plus custom icons",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "author": {
+    "name": "Your Name"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/my-theme-suite"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/my-theme-suite/issues"
+  },
+  "homepage": "https://github.com/your-username/my-theme-suite#readme",
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "high-contrast",
+    "syntax highlighting",
+    "icons",
+    "typescript",
+    "javascript",
+    "python",
+    "java",
+    "rust",
+    "go",
+    "php",
+    "html",
+    "css",
+    "json",
+    "markdown",
+    "yaml"
+  ],
+  "galleryBanner": {
+    "color": "#0f172a",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "icon": "assets/logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Workspace Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/workspace-dark-theme.json"
+      },
+      {
+        "label": "Workspace Light",
+        "uiTheme": "vs",
+        "path": "./themes/workspace-light-theme.json"
+      },
+      {
+        "label": "Workspace High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/workspace-high-contrast-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "workspace-theme-icons",
+        "label": "Workspace Theme Icons",
+        "path": "./icons/icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "generate": "node scripts/generate-variants.js",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "test": "node scripts/test-colors.js",
+    "build:icons": "node scripts/generate-icons.js",
+    "build:all": "npm run build && npm run build:icons"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "vsce": "^2.15.0"
+  }
+}

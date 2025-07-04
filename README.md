@@ -1,21 +1,20 @@
-# Workspace Theme Suite 🎨
+# Workspace Theme Suite -
 
-A rich and polished Visual Studio Code theme pack with:
+A complete Visual Studio Code theme family with:
 
-- 🌙 **Workspace Dark**
-- ☀️ **Workspace Light**
-- ♿ **Workspace High Contrast**
+-  **Workspace Dark**
+-  **Workspace Light**
+-  **Workspace High Contrast**
+-  **Custom File & Folder Icons**
 
-All tailored with consistent UI design, syntax highlighting, and terminal colors.
+
 
 ---
 
-## 📦 Installation
+##  Installation
 
-```bash
-git clone https://github.com/your-username/my-theme-suite.git
-cd my-theme-suite
-npm install
-npm run build
-vsce package
-code --install-extension workspace-theme-suite-*.vsix
+**Option 1: From VS Code Marketplace (once published)**  
+Search for **"Workspace Theme Suite"** and click "Install".
+
+
+

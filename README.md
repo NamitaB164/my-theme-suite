@@ -10,7 +10,7 @@ A complete Visual Studio Code theme family with:
 
 ##  Installation
 
-**Option 1: From VS Code Marketplace (once published)**  
+**From VS Code Marketplace**  
 Search for **"Workspace Theme Suite"** and click "Install".
 
 

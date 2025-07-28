@@ -7,13 +7,6 @@ A complete Visual Studio Code theme family with:
 -  **Workspace High Contrast**
 -  **Custom File & Folder Icons**
 
-
-##  Installation
-
-**From VS Code Marketplace**  
-Search for **"Workspace Theme Suite"** and click "Install".
-
-
 ##  Theme Screenshots
 
 | Workspace Dark | Workspace Light | High Contrast |
